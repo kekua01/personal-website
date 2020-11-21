@@ -1,0 +1,36 @@
+.container {
+	height: 330px;
+	text-align: center;
+	padding-bottom: 45px;
+	margin: 0;
+	background: #1c1c1c;
+}
+
+
+@keyframes appear {
+	from {color: #1c1c1c;}
+ 	to {color: #d6d6d6;}
+}
+
+.welcome {
+	font-family: 'Copse', sans-serif;
+	font-size: 125px;
+	color: #d6d6d6;
+	font-weight: 400;
+	margin: 0;
+	padding: 90px 0 20px 0;
+	animation-name:  appear;
+  	animation-duration: 2s;
+}
+
+.hello {
+	font-family: 'Mulish', sans-serif;
+	font-weight: 500;
+	padding: 0 250px;
+	font-size: 18px;
+	color: #d6d6d6;
+	margin: 0;
+	animation-name:  appear;
+  	animation-duration: 2s;
+}
+

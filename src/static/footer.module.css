@@ -1,0 +1,15 @@
+.footer {
+	margin: 0;
+	text-align: center;
+	background: #1c1c1c;
+	height: 50px;
+	color: #fff;
+}
+
+
+.link {
+	font-family: 'Copse', serif;
+	text-decoration: none;
+	margin: 0 30px;
+	padding-bottom: 25px;
+}

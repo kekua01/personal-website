@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  height: 650px;
+  align-content: flex-start;
+  padding: 0px 150px 0 150px;
+  margin: 0;
+  background: #1c1c1c;
+}

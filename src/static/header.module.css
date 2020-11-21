@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  height: 85px;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  color: black;
+  border-bottom: 1px solid #1c1c1c;
+  margin: 0;
+  padding: 0;
+}
+

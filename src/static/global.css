@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Fira+Sans&family=Mulish&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1c1c1c;
+  color: white;
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	color: inherit;
+}

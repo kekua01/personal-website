@@ -1,0 +1,35 @@
+.palmtree {
+  margin-left: 16px;
+  margin-top: 7px;
+  height: 38px;
+  width: 38px;
+}
+
+.palmtree#tree {
+	margin-left: 35px;
+}
+
+.pagetitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 27px;
+  margin-left: 8px;
+  margin-top: 15px;
+}
+
+.image {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  width: auto;
+  margin-left: auto;
+  margin-top: 7px;
+}
+
+.nav {
+  margin: 0px 120px 0px auto;
+  text-decoration: none;
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+}

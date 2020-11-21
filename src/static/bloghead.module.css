@@ -1,0 +1,27 @@
+.page {
+	background: #1c1c1c;
+	padding: 100px;
+}
+
+.back {
+	position: absolute;
+	font-family: 'Mulish', sans-serif;
+	font-size: 23px;
+	left: 150px;
+	top: 130px;
+}
+
+.title {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Copse', Arial;
+	font-size: 33px;
+}
+
+.post {
+	margin-top: 50px;
+	padding: 0 200px;
+	font-size: 18px;
+	line-height: 21px;
+	color: #adadad;
+}

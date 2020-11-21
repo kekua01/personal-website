@@ -1,0 +1,79 @@
+.aboutme {
+	display: flex;
+	padding: 40px 40px 0 40px;
+}
+
+.aboutmemore {
+	display: flex;
+	padding: 0px 20px;
+	justify-content: space-around;
+}
+
+
+.pic {
+	height: 250px;
+	width: auto;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.descript {
+	font-family: sans-serif;
+	color: white;
+	font-size: 17px;
+	line-height: 22px;
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-top: 20px;
+	font-weight: 300;
+}
+
+.hbrag {
+	font-style: italic;
+	cursor: pointer;
+}
+
+.bragContent {
+	border: 1px solid black;
+	border-radius: 12px;
+	position: static;
+	font-size: 15px;
+	right: 115px;
+	padding: 10px;
+	background: #737373;
+	margin-top: -30px;
+	margin-left: 28%;
+}
+
+.subpart {
+	color: white;
+	font-size: 33px;
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	/*border: 1px solid red;*/
+	flex-grow: 1;
+	max-width: 35%;
+	margin-bottom: 37px;
+}
+
+.subtitle {
+	cursor: pointer;
+}
+
+.subtitle:hover {
+	font-style: italic;
+}
+
+.list {
+
+	margin-top: -20px;
+}
+
+.listitem {
+	list-style-type: circle;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	text-align: left;
+}
+

@@ -1,0 +1,52 @@
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 16px;
+	height: 10px;
+	margin: 0;
+	top: 40px;
+	right: 50px;
+	z-index: 1;
+}
+
+.burger {
+	cursor: pointer;
+	z-index: 2;
+}
+
+.container {
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	color: #fff;
+	overflow: hidden;
+	transition: width .5s, color 1s;
+	text-align: right;
+}
+
+.links {
+	margin-top: 65px;
+}
+
+.item {
+	font-family: 'Mulish', sans-serif;
+	font-size: 18px;
+	border-bottom: 1px dotted #757575;
+	margin: 6px 55px 0 75px;
+	padding: 10px 0 10px 10px;
+	white-space: nowrap;
+}
+
+.list {
+	list-style-type: none;
+}
+
+.subItem {
+	margin: 10px 25% 0 0;
+	font-size: 14px;
+	font-family: 'Mulish', sans-serif;
+}
+

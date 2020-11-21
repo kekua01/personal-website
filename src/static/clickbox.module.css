@@ -1,0 +1,50 @@
+.box {
+	height: 175px;
+	width: 335px;
+	position: relative;
+	padding: 0;
+	margin: 20px 20px 90px 20px;
+	z-index: 0;
+}
+
+.box:hover {
+	cursor: pointer;
+}
+
+.title {
+	margin: 0 0 10px 0;
+	font-size: 52px;
+	font-family: 'Copse', serif;
+	color: white;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.image {
+	height: 100%;
+	width: 100%;
+	filter: brightness(90%);
+	border: 2px solid black;
+	border-radius: 6px;
+}
+
+.box:hover .image {
+	transition: filter 0.3s;
+	filter: brightness(25%);
+}
+
+.description {
+	display: none;
+	color: white;
+	font-size: 15px;
+	font-family: Arial;
+	padding: 0 10%;
+	position: absolute;
+	top: 65%;
+	left: 0;
+}
+
+.box:hover .description {
+	display: inline;
+}
+
